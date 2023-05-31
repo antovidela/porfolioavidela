@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(219, 236, 227);
+}
+
+header{
+    padding: 1.5em 0;
+    box-shadow: 11px 4px 18px 0px rgb(119 112 112)
+}
+
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 80%;
+    margin: 0 10%;
+}
+
+header a {
+    display: block;
+    text-transform: uppercase;
+    text-align: right;
+    color: rgb(39, 37, 37);
+    text-decoration: none;
+    padding: 0.5em 1.5em ;
+    border-radius: 20px;
+    margin: 0 0.5em;
+
+    transition-duration: 500ms;
+}
+
+header a:hover{
+    color: rgb(11, 255, 157);
+    background-color: rgb(237, 234, 234);
+}
+/************************/
+
+#conocimiento {
+    /*display: grid;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(220, 216, 216);
+    height: 900px;
+    margin-bottom: 60px;
+}
+
+#conocimiento .conocimientoscard-text {
+    margin: 80px 0;
+}
+
+.h2-conocimientos {
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.p-conocimientos {
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+}
+
+#conocimiento .conocimientoscard-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.carditem {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.carditem img {
+    margin-top: 30px;
+}
+
+.carditem .p{
+    font-size: 50px;
+}
+
+/*--------------------------/*
+/*#conocimiento{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 216, 216);
+}
+
+#conocimiento .conocimientoscard-text{
+    text-align: center;
+    /* flex-direction: column; *
+    width: 100%;
+}
+
+.h2-conocimientos{
+    color: rgb(32, 32, 32);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.p-conocimientos{
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+}
+
+#conocimiento .conocimientoscard-items{
+    /* flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px; *
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.carditem{
+    width: 300px;
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+    background-color: beige;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}*/
+
+/*******************/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(131,56,236);
+    height: 600px;
+}
+
+#iconoquote{
+    color: white;
+    font-size: 150px;
+    padding: 50px 30px 10px 30px;
+    margin: 30px 30px 10px 30px; 
+}
+
+.text{
+    color: white;
+}
+
+.textquote{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    padding: 20px 250px ;
+    text-align: center;
+}
+
+.spanquote{
+    display: flex;
+    font-size: 35px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*******************************/
+
+#proyecto{
+    background-color: rgb(238, 243, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.proyectoh3{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: 35px 
+}
+
+.proyectotext{
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+}
+
+.proyectocard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+    border: solid;
+    background-color: white;
+}
+
+/***************/
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+}
