@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,400&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./resouce/favicon.ico" type="image/x-icon">
+
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+    <header >
         <nav>
             <ul>
                 <li>
@@ -34,20 +37,22 @@
         </nav>
     </header>
 
-    <section id="hola">
-        <h1>
-            ¡Hola! Soy Antonella!
-        </h1>
-        <p>
-            Azafata, camarera y amante de los reptiles
-        </p>
-        <button>
-            LO QUE HAGO
-        </button>
-        <img src="./resouce/undraw_appreciation_rgtt.svg" alt="">
+    <section class="hola">
+        <div class="holamain">
+            <h1 class="=anto">
+                ¡Hola! Soy Antonella!
+            </h1>
+            <p class="holamainp">
+                Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <button class="holabutton">
+                LO QUE HAGO
+            </button>
+        </div>
+        <img src="./resouce/undraw_appreciation_rgtt.svg" alt="icono-chica">
     </section>
 
-    <section id="conocimiento">
+    <section class="conocimiento">
         <div class="conocimientoscard-text">
             <H2 class="h2-conocimiento">
                 MIS CONOCIMIENTOS
@@ -59,35 +64,35 @@
         <div class="conocimientoscard-items">
             <div class="carditem">
                 <img src="./resouce/html5.png" alt="logo-html5" width="100" height="100">
-                <p>HTML 5</p>
+                <p class="titulocard">HTML 5</p>
             </div>
             <div class="carditem">
 
                 <img src="./resouce/css-3.png" alt="logo-css3" width="100" height="100">
-                <p>CSS 3</p>
+                <p class="titulocard">CSS 3</p>
             </div>
             <div class="carditem">
 
                 <img src="./resouce/sass.svg" alt="logo-sass" width="100" height="100">
-                <p>SASS</p>
+                <p class="titulocard">SASS</p>
             </div>
             <div class="carditem">
                 <img src="./resouce/js.png" alt="logo-JavaScript" width="100" height="100">
-                <p>JavaScript</p>
+                <p class="titulocard">JavaScript</p>
             </div>
             <div class="carditem">
                 <img src="./resouce/react.svg" alt="logo-React" width="100" height="100">
-                <p>REACT</p>
+                <p class="titulocard">REACT</p>
             </div>
             <div class="carditem">
                 <img src="./resouce/git.png" alt="logo-GIT" width="100" height="100">
-                <p>GIT</p>
+                <p class="titulocard">GIT</p>
             </div>
         </div>
     </section>
 
     <section class="quote">
-        <i id="iconoquote" class="fa-solid fa-quote-right"></i>
+        <i class="iconoquote fa-solid fa-quote-right"></i>
         <div class="text">
             <p class="textquote">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolor molestias reiciendis vel
@@ -101,43 +106,63 @@
         </div>
     </section>
 
-    <section id="proyecto">
+    <section class="proyecto">
         <h3 class="proyectoh3">
             MIS PROYECTOS
         </h3>
         <p class="proyectotext">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, iste?
         </p>
-        <div class="proyectocard"> <img src="./resouce/undraw_appreciation_rgtt.svg" alt="" width="150" height="250">Porfolio</div>
-        <div class="proyectocard"> <img src="./resouce/undraw_fun_moments_2vha.svg" alt="" width="250" height="250">Generador de memes</div>
-        <div class="proyectocard"> <img src="./resouce/undraw_halloween_re_2kq1.svg" alt="" width="250" height="250">Match 3</div>
-        <div class="proyectocard"> <img src="./resouce/undraw_search_app_oso2.svg" alt="" width="250" height="250">Controlador de gastos</div>
-        <div class="proyectocard"> <img src="./resouce/undraw_experience_design_re_dmqq.svg" alt="" width="250" height="250">Administrador de reuniones</div>
-        <div class="proyectocard"> <img src="./resouce/undraw_horror_movie_3988.svg" alt="" width="250" height="250">Buscador de peliculas</div>
+        <div class="contenedorkard">
+            <div class="proyectocard">
+                    <img src="./resouce/undraw_appreciation_rgtt.svg" alt="" width="150" height="150"> <p class="pproy">Porfolio</p>
+                    <a href="hola"></a>
+            </div>
+            <div class="proyectocard">
+                    <img src="./resouce/undraw_fun_moments_2vha.svg" alt="" width="150" height="150"><p class="pproy">Generador de memes</p>
+                    <a href="hola"></a>
+            </div>
+            <div class="proyectocard">
+                    <img src="./resouce/undraw_halloween_re_2kq1.svg" alt="" width="150" height="150"><p class="pproy">Match 3</p>
+                    <a href="hola"></a>
+            </div>
+            <div class="proyectocard">
+                    <img src="./resouce/undraw_search_app_oso2.svg" alt="" width="150" height="150"><p class="pproy">Controlador de gastos</p>
+                    <a href="hola"></a>
+            </div>
+            <div class="proyectocard">
+                    <img src="./resouce/undraw_experience_design_re_dmqq.svg" alt="" width="150" height="150"><p class="pproy">Administrador de reuniones</p>
+                    <a href="hola"></a>
+            </div>
+            <div class="proyectocard"> <img src="./resouce/undraw_horror_movie_3988.svg" alt="" width="150" height="150"> <p class="pproy">Buscador de peliculas</p>
+                <a href="hola"></a>
+            </div>
+        </div>
     </section>
 
-    <section id="contacto">
-        <div class="contenedorcontacto">
+
+    <section class="contacto">
+        
             <div class="contenedorcontacto1">
-                <h3>
+                <h3 class="contactoh31">
                     CONTACTAME
                 </h3>
-                <P>
+                <P class="contactop1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, quod!
                 </P>
                 <ul>
-                    <li> <i class="fa-brands fa-twitter"></i> <a href="twitter">twitter</a> </li>
-                    <li> <i class="fa-brands fa-linkedin"></i> <a href="linkedin">linkedin</a> </li>
-                    <li> <i class="fa-solid fa-envelope"> </i><a href="mail">mail</a> </li>
+                    <li class="ul1"> <i class="fa-brands fa-twitter"></i> <a href="twitter">twitter</a> </li>
+                    <li class="ul1"> <i class="fa-brands fa-linkedin"></i> <a href="linkedin">linkedin</a> </li>
+                    <li class="ul1"> <i class="fa-solid fa-envelope"> </i><a href="mail">mail</a> </li>
                 </ul>
             </div>
             <div class="contenedorcontacto2">
-                <h3>
+                <h3 class="contactoh32">
                     ESCRIBIME
                 </h3>
-                <form action="/my-handling-form-page" method="post">
+                <form class="form" action="/my-handling-form-page" method="post">
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name" placeholder="Ej: Anto">
+                    <input type="text" id="name" name="user_name" placeholder="   Ej: Anto">
 
                     <label for="lastname">Apellido:</label>
                     <input type="text" id="lastname" name="user_name" placeholder="Ej: Videla">
@@ -155,22 +180,22 @@
 
                 </form>
             </div>
-        </div>
+        
     </section>
 
-    <footer>
-        <ul>
-            <li> <a href="hola">hola</a></li>
-            <li> <a href="conocimientos">conocimientos</a></li>
-            <li> <a href="proyectos">proyectos</a></li>
-            <li> <a href="contacto">contacto</a></li>
+    <footer class="footer">
+        <ul class="footerlist1">
+            <li > <a href=""> hola</a></li>
+            <li > <a class="ref"  href="conocimientos">conocimientos</a></li>
+            <li > <a class="ref" href="proyectos">proyectos</a></li>
+            <li > <a class="ref" href="contacto">contacto</a></li>
         </ul>
-        <ul>
-            <li> <i class="fa-brands fa-twitter"></i> <a href="twitter"></a></li>
-            <li> <i class="fa-brands fa-linkedin"></i> <a href="linkedin"></a></li>
-            <li> <i class="fa-solid fa-envelope"></i> <a href="email"></a></li>
+        <ul class="footerlist2">
+            <li > <i class="fa-brands fa-twitter"></i> <a   href="twitter"></a></li>
+            <li > <i class="fa-brands fa-linkedin"></i> <a href="linkedin"></a></li>
+            <li > <i class="fa-solid fa-envelope"></i> <a  href="email"></a></li>
         </ul>
-        <p>
+        <p class="pfooter">
             Hecho con <i class="fa-regular fa-heart"></i>
         </p>
 

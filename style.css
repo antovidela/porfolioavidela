@@ -2,16 +2,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 body{
-    background-color: rgb(219, 236, 227);
+    background-color:rgb(232, 246, 247);
 }
 
 header{
-    padding: 1.5em 0;
-    box-shadow: 11px 4px 18px 0px rgb(119 112 112)
+    position: relative;
+    box-shadow: 11px 4px 18px 0px rgb(119 112 112);
+    padding: 12px;
+    z-index: 8;
+    top: 0%;
 }
 
 
@@ -32,131 +35,155 @@ header a {
     padding: 0.5em 1.5em ;
     border-radius: 20px;
     margin: 0 0.5em;
-
     transition-duration: 500ms;
 }
 
 header a:hover{
-    color: rgb(11, 255, 157);
+    color: rgb(6, 13, 137);
     background-color: rgb(237, 234, 234);
 }
 /************************/
 
-#conocimiento {
-    /*display: grid;*/
+.hola{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    z-index: 7;
+}
+
+.holamain{
+    font-weight:;
+    margin-top: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+.anto{
+    font-size: 300px;
+    font-weight: 300px;
+    margin: 50px;
+    color: rgb(59, 58, 58);
+
+}
+
+.holamainp{
+    margin: 25px;
+    font-size: 70px;
+    color: rgb(88, 88, 88);
+}
+
+.holabutton{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: aliceblue;
+    color:  rgb(88, 88, 88);
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 11px 4px 18px 0px rgb(133, 131, 131);
+    font-weight: 600;
+}
+
+
+
+.conocimiento {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(220, 216, 216);
-    height: 900px;
-    margin-bottom: 60px;
+    background-color: rgb(230, 241, 234);
+    padding-top: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 35px;
+    box-shadow: 11px 4px 18px 0px rgb(119 112 112);
 }
 
-#conocimiento .conocimientoscard-text {
-    margin: 80px 0;
-}
-
-.h2-conocimientos {
-    color: rgb(32, 32, 32);
+.conocimientoscard-text {
+    margin-top: 50px;
     font-size: 15px;
-    font-weight: 200;
+
 }
 
-.p-conocimientos {
-    color: rgb(36, 36, 36);
-    font-size: 35px;
+.h2-conocimiento{
+    color: rgb(45, 46, 45);
+    font-size: 40px;
+    font-weight: 700;
 }
 
-#conocimiento .conocimientoscard-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.conocimientoscard-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    margin:35px
 
+}
+
+.carditem:hover{
+    transform: scale(1.1);
+    box-shadow: 16px 9px 23Px 5px rgb(89, 87, 87);
+}
+
+.p-conocimientos{
+    color: rgb(59, 58, 58);
+    font-size: 25px;
+    padding: 20px;
+}
+
+.titulocard{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+    color: rgb(8, 204, 132);
 }
 
 .carditem {
     width: 200px;
     height: 200px;
-    margin: 20px;
-    padding: 20px;
+    margin: 25px;
+    padding: 25px;
     text-align: center;
-    background-color: beige;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .carditem img {
     margin-top: 30px;
 }
 
-.carditem .p{
-    font-size: 50px;
-}
-
-/*--------------------------/*
-/*#conocimiento{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(220, 216, 216);
-}
-
-#conocimiento .conocimientoscard-text{
-    text-align: center;
-    /* flex-direction: column; *
-    width: 100%;
-}
-
-.h2-conocimientos{
-    color: rgb(32, 32, 32);
-    font-size: 15px;
-    font-weight: 200;
-}
-
-.p-conocimientos{
-    color: rgb(36, 36, 36);
-    font-size: 35px;
-}
-
-#conocimiento .conocimientoscard-items{
-    /* flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 10px; *
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.carditem{
-    width: 300px;
-    margin: 20px;
-    padding:20px;
-    text-align: center;
-    background-color: beige;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
-}*/
-
-/*******************/
 
 .quote{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(131,56,236);
-    height: 600px;
+    background-color: rgb(123, 248, 240);
+
 }
 
-#iconoquote{
-    color: white;
+.iconoquote{
+    color: rgb(93, 93, 93);
     font-size: 150px;
     padding: 50px 30px 10px 30px;
     margin: 30px 30px 10px 30px; 
 }
 
 .text{
-    color: white;
+    color: rgb(93, 93, 93);
 }
 
 .textquote{
@@ -179,40 +206,305 @@ header a:hover{
 
 /*******************************/
 
-#proyecto{
-    background-color: rgb(238, 243, 247);
+.proyecto{
+    background-color;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
 }
 
 .proyectoh3{
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 700px;
     text-align: center;
-    margin: 35px 
+    margin: 20px 
 }
 
 .proyectotext{
     font-size: 25px;
     text-align: center;
-    margin: 25px;
+    margin: 15px;
+}
+
+.contenedorkard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .proyectocard{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    width: 12em;
+    height: 12em;
     border-radius: 10px;
-    border: solid;
+    border:rgb(11, 255, 157);
     background-color: white;
-}
-
-/***************/
-
-#contacto{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 11px 4px 18px 0px rgb(133, 131, 131);
+    transition-duration: 500ms;
 }
+
+.proyectocard:hover{
+    transform: scale(1.1);
+    box-shadow: 16px 9px 23Px 5px rgb(89, 87, 87);
+}
+
+.pproy{
+    font-size: 15px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 6px 3px 17px 8px grey;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.contenedorcontacto1{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    width: 300px;
+}
+
+
+.ul1 a{
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    padding: 35px;
+}
+
+.ul1{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ul1:hover{
+    transform: rotate(15deg);
+}
+.ul1:hover a{
+    color: olive;
+}
+
+.ul1:hover i{
+    color: steelblue;
+}
+
+
+
+
+
+.contactoh31{
+    font-size: 30px;
+    font-weight: bold;
+    color:  rgb(88, 88, 88);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contactop1{
+    font-size: 15px;
+    color:  rgb(88, 88, 88);
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+
+.contenedorcontacto2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 300px;
+
+
+}
+
+.contactoh32{
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    text-align: center;
+    margin-top:px;
+    margin-bottom:px;
+    margin-left: ;
+
+}
+
+.form{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    color: rgb(54, 54, 54);
+}
+
+.form input{
+    font-size: 15px;
+    border-style: none;
+    background-color: rgb(232, 245, 243);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.form textarea{
+    background-color:  rgb(232, 245, 243);
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.form button{
+    font-size: 20px;
+    color: rgb(7, 160, 236);
+    background-color: white;
+    border-style: none;
+    margin-top: 10px;
+
+    box-shadow: 11px 4px 18px 0px rgb(166, 158, 158)
+}
+
+.footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0%;
+        box-shadow: 11px 4px 18px 0px rgb(119 112 112);
+}
+
+.footerlist1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footerlist1 li{  
+    padding: 15px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.footerlist1 a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.footerlist1 a:hover{
+    color: rgb(86, 86, 86);
+    font-size: larger;
+}
+
+
+
+.footerlist2 li{
+    height:15px;
+    width: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 15px
+}
+
+.footerlist2 i{
+    list-style: none;
+    font-size: 100%;
+}
+
+.footerlist2 li:hover{
+    background-color: rgb(39, 39, 39);
+} 
+
+.footerlist2 li:hover i{
+    color: aliceblue;
+}
+
+.footerlist2 li:active{
+    box-shadow: 0 0 3px 0 white;
+}
+
+
+
+
+    .footerlist2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color:;
+        list-style: none;
+        color:  rgb(30, 30, 30);
+        
+    }
+ 
+
+    .pfooter{
+        display: flex;
+        justify-content: center;
+        padding:15px
+    }
+
+
+
+@media screen and (max-width:1100px){
+    header {
+        display: none
+    }
+
+    .hola{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .holamainp{
+        font-size: 30px
+    }
+
+    .textquote{
+        padding: 20px 10%
+    }
+}
+
+@media screen and (max-width:550px){
+    .footerlist1{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
