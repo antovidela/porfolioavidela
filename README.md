@@ -1,20 +1,20 @@
 # porfolioavidela
-##proyecto del primer módulo 
+## proyecto del primer módulo 
 
 ![Sin título](https://github.com/antovidela/porfolioavidela/assets/130260241/849edbde-44bb-4904-b591-d4b9c79a7042)
 
-*Que aspectos debimos proyectar en este porfolio
-*HTML, familiarización con el editor de texto Visual Studio Code 
-*HTML semántico 
-*CSS y archivo linkeado correctamente a HTML 
-*Flexbox
-*Uso e instalación de la consola Git Bash 
-*Creación de la cuenta en Git Hub
-*Crear repositorios y mantenerlos actualizados 
-*Deployado 
-*Diseño responsivo*
+* Que aspectos debimos proyectar en este porfolio
+* HTML, familiarización con el editor de texto Visual Studio Code 
+* HTML semántico 
+* CSS y archivo linkeado correctamente a HTML 
+* Flexbox
+* Uso e instalación de la consola Git Bash 
+* Creación de la cuenta en Git Hub
+* Crear repositorios y mantenerlos actualizados 
+* Deployado 
+* Diseño responsivo*
 
-##Aspectos de presentación 
+## Aspectos de presentación 
 Fecha: 06 de junio de 2023
 respetando el siguiente [diseño] dado por la profesora (https://frontend-proyecto-portfolio.adaitw.org/)
 Para el total del proyecto utilicé Visual Studio Code y Git Hub
